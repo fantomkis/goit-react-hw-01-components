@@ -1,0 +1,22 @@
+.item {
+  display: flex;
+  width: 300px;
+  padding: 20px;
+  background-color: rgb(29, 80, 80);
+  margin-bottom: 7px;
+  align-items: center;
+}
+
+.avatar {
+  width: 70px;
+  margin-right: 30px;
+}
+
+.onlaine {
+  font-size: 100px;
+  color: green;
+}
+.status {
+  font-size: 100px;
+  color: red;
+}

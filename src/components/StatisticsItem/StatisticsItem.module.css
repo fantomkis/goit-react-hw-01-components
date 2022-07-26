@@ -1,0 +1,10 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 180px;
+  border: 1px solid beige;
+  text-align: center;
+  background-color: burlywood;
+  color: blanchedalmond;
+}
