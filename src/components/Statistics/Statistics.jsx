@@ -21,7 +21,7 @@ function Statistics({ title, stats }) {
     </div>
   );
 }
-Statistics.prototype = {
+Statistics.propTypes = {
   title: PropTypes.string,
   stats: PropTypes.shape({
     id: PropTypes.string,

@@ -15,7 +15,7 @@ function FriendList({ friends }) {
     </ul>
   );
 }
-FriendList.prototype = {
+FriendList.propTypes = {
   friends: PropTypes.array,
 };
 

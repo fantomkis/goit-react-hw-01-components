@@ -9,7 +9,7 @@ function StatisticsItem({ label, perce }) {
     </li>
   );
 }
-StatisticsItem.prototype = {
+StatisticsItem.propTypes = {
   label: PropTypes.string,
   perce: PropTypes.number,
 };

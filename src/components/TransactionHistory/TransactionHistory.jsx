@@ -23,7 +23,7 @@ function TransactionHistory({ items }) {
     </table>
   );
 }
-TransactionHistory.prototype = {
+TransactionHistory.propTypes = {
   items: PropTypes.array,
 };
 
